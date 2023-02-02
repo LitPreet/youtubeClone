@@ -4,10 +4,17 @@ let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
 const videoCardContainer = document.querySelector('.video-container');
 const searchInput = document.querySelector('.search-bar');
 const searchBtn = document.querySelector('.search-btn');
+const search2btn = document.querySelector(".searchbutton");
+const input = document.querySelector(".expandright");
 let searchLink = "https://www.youtube.com/results?search_query=";
 searchBtn.addEventListener('click', () => {
     if(searchInput.value.length){
         location.href = searchLink + searchInput.value;
+    }
+})
+search2btn.addEventListener('click', () => {
+    if(input.value.length){
+        location.href = searchLink + input.value;
     }
 })
 
