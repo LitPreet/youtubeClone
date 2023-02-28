@@ -3,6 +3,6 @@
 
 This is a fully functional youtube clone which is made using vanilla javascript.
 
-By using this I got to learn how to implement Api's in real world projects.
+By using this I have got to learn how to implement Api's in real world projects.
 
 <a href = "https://youtube-89.netlify.app/">Live Demo</a>
